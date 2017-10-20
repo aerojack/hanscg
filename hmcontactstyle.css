@@ -1,0 +1,102 @@
+body {
+	background-color: #FCF3CF;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: 8%;
+}
+a {
+	text-decoration: none;
+}
+h1, h2, h3 {
+	margin: 0;
+}
+#bol  {
+	background-color: #FF5733;
+	position: 4px 8px;
+	float: left;
+	width: 70px;
+	height: 50px;
+	text-align: center;
+	padding: 5px;
+}
+ .rond2 {
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 25px;
+ }
+#header {
+	background-color: #FF5733;
+	color: #7A4D29;
+	float: left;
+	width: 310px;
+	height: 50px;
+	text-align: left;
+	padding: 5px;
+}	
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+li a {
+    float: left;
+    display: block;
+    height: 50px;
+    text-align: center;
+    width:150px;
+    padding: 5px;
+    color: yellow;
+    background-color: #FF5733;
+
+ } 
+  /* Change the link color to #111 (black) on hover */
+li a hover {
+    background-color: #111;
+}  
+.active {
+    background-color: #4CAF50;
+}
+
+
+#container {
+	background-color: #FCF3CF; 
+	width: 1200px;
+	height:620px;
+	text-align: justify;
+	margin-left: 0px;
+	margin-right: auto;
+}
+#content {
+	padding: 10;
+	margin-left: 10px;
+}
+#main1  {
+
+    padding: 0;
+    float: left;
+}
+.rond {
+ 	width: 300px;
+ 	height: 300px;
+ 	border-radius: 150px;
+ }
+#main2 {
+	width: 420px;
+	float: right;
+	padding: 30px;
+}
+#main3  {
+	float:left;
+}
+#topics  {     
+}
+#footer {
+	clear: both;
+	width: 1200px ;
+	height: 2cm;
+	padding: 10 px;
+	background-color: #85929E;
+	color: white;
+	text-align: right;
+}

@@ -1,0 +1,138 @@
+body {
+	background-color: #FCF3CF;
+	font-family: Helvetica, Arial, sans-serif;
+	height: 620px;
+	margin-left: 5%;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+h1, h2, h3 {
+	margin: 0;
+}
+#bol  {
+	background-color: #FF5733;
+	position: 4px 8px;
+	float: left;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding: 5px;
+}
+.rond2 {
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 25px;
+}
+#header {
+	background-color: #FF5733;
+	color: #7A4D29;
+	float: left;
+	width: 370px;
+	height:40px;
+	text-align: left;
+	padding: 10px;
+}	
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    float: left;
+    display: block;
+    height: 40px;
+    text-align: center;
+    width:130px;
+    padding: 10px;
+    color: yellow;
+    background-color: #FF5733;
+
+ } 
+  /* Change the link color to #111 (black) on hover */
+li a hover {
+    background-color: #111;
+    }
+#container {
+	background-color: #FCF3CF;
+	border-width: 1px; 
+	width: 1200px;
+	height:620px;
+	float: left;
+	text-align: justify;
+	text-indent: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+}
+.active {
+    background-color: #4CAF50;
+}
+#content0 {
+	width: 400px;
+	height: 350px;
+	font-style: bold;
+	font-size: 15px;
+	padding: 0px;
+	float: left;
+	text-align: justify;
+}
+#content1 {
+	width: 500px;
+	height: 400px;
+	font-style: bold;
+	font-size: 15px;
+	padding: 0px;
+	float: left;
+	text-align: justify;
+}
+#content2  {
+    width: 242px;
+    height: 290px;
+    padding: 10px;
+    font-size:25px;
+    float: right;
+}
+#content3 {
+	width: 570px;
+	height: 380px;
+	padding: 10px;
+	float: left;
+	text-indent: 10px;
+	background-color: #F5F351;
+	}
+#content4 {
+	width: 573px;
+	height: 380px;
+	padding: 10px;
+	float: left;
+	text-indent: 10px;
+	background-color: #F5F351;
+}
+#content5 {
+	width: 1160px;
+	height: 250px;
+	text-indent: 10px;
+	padding: 10px;
+	float: left;
+	background-color: #F7CF59;
+}
+#content6 {
+	width: 1180px;
+	height: 100px;
+	text-indent: 10px;
+	float: left;
+	background-color: yellow;
+}
+#footer {
+	clear: both;
+	padding: 10 px;
+	background-color: #85929E;
+	color: white;
+	text-align: right;
+	width: 1200px;
+	height: 2cm;
+}
