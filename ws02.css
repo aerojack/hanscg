@@ -1,0 +1,108 @@
+body {
+	background-color: #FCF3CF;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: 5%;
+	}
+	#header {
+		background-color: #FF5733;
+		width: 100%;
+		height: 30%;
+	}
+	#bol  {
+		background-color: #FF5733;
+		position: 2px 4px;
+		float: left;
+		width: 8%;
+		height: 15%;
+		text-align: center;
+		padding: 0px;
+	}
+	#name  {
+		font-size: 50%;
+		background-color: #FF5733;
+		color: #7A4D29;
+		float: left;
+		width: 30%;
+		height: 15%;
+		text-align: left;
+	}
+	ul {
+	    list-style-type: none;
+			list-style: none;
+	    margin-top: 0px;
+	    padding: 0px;
+			display: block;
+			box-sizing: border-box;
+	    overflow: hidden;
+		}
+
+		ul li{
+		float: left;
+		width: 14%;
+		height: 15%;
+		background-color: #32cdaa;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		border-radius: 15%;
+		font-size: 1.5vw;
+		margin-right:0.7%;
+		}
+
+		ul li a{
+		text-decoration: none;
+		color: yellow;
+		font-style:italic;
+		display: block;
+		}
+
+	 ul li a:hover{
+	 				color: blue;}
+
+	 .active {
+	     background-color: #4CAF50;
+		 			}
+
+		.rond2 {
+			 width: 50px;
+			 height: 50px;
+			 border-radius: 25px;
+				}
+
+		#content  {
+			padding: 10;
+			width: 100%;
+			height: 60%;
+			overflow: scroll;
+		}
+				#main1 {
+						width: 60%;
+						text-align: justify;
+						float: left;
+					}
+					.rond {
+					 	width: 300px;
+					 	height: 300px;
+					 	border-radius: 150px;
+					}
+					#main2  {
+					    padding: 5px;
+					    float: right;
+					    width: 30%;
+					}
+					 #main3  {
+					 	width: 30%;
+					 	height: 275px;
+					 	float: right;
+					 	background-color: #FF5733;
+					 	padding: 10px;
+					 }
+					 #footer {
+						clear: both;
+					 	width: 100% ;
+					 	height: 20%;
+					 	padding: 10 px;
+					 	background-color: #85929E;
+					 	color: white;
+					 	text-align: left;
+					 }
