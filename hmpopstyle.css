@@ -4,61 +4,78 @@ body {
 	height: 620px;
 	margin-left: 5%;
 }
-a {
-	text-decoration: none;
-	color: white;
-}
-h1, h2, h3 {
-	margin: 0;
+#header {
+	background-color: #FF5733;
+	width: 100%;
+	height: 30%;
 }
 #bol  {
 	background-color: #FF5733;
-	position: 4px 8px;
+	position: 2px 4px;
 	float: left;
-	width: 50px;
-	height: 50px;
+	width: 8%;
+	height: 15%;
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
 }
-.rond2 {
- 	width: 50px;
- 	height: 50px;
- 	border-radius: 25px;
-}
-#header {
+#name  {
+	font-size: 100%;
 	background-color: #FF5733;
 	color: #7A4D29;
 	float: left;
-	width: 370px;
-	height:40px;
+	width: 30%;
+	height: 15%;
 	text-align: left;
-	padding: 10px;
-}	
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
-li a {
-    float: left;
-    display: block;
-    height: 40px;
-    text-align: center;
-    width:130px;
-    padding: 10px;
-    color: yellow;
-    background-color: #FF5733;
+#nav  {
 
- } 
-  /* Change the link color to #111 (black) on hover */
-li a hover {
-    background-color: #111;
-    }
+			}
+ul {
+		list-style-type: none;
+		list-style: none;
+		margin-top: 10px;
+		font-size: 150%;
+		padding: 10px;
+		display: block;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	ul li{
+	float: left;
+	width: 16%;
+	height: 15%;
+	background-color: #6AF3F3;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-radius: 15%;
+	margin-right:0.7%;
+	padding: 5px;
+	}
+
+	ul li a{
+	text-decoration: none;
+	color: yellow;
+	font-style:italic;
+	display: block;
+	}
+
+ ul li a:hover{
+				color: blue;}
+ .active {
+		 background-color: #4CAF50;
+				}
+
+	.rond2 {
+		 width: 50px;
+		 height: 50px;
+		 border-radius: 25px;
+			}
+
 #container {
 	background-color: #FCF3CF;
-	border-width: 1px; 
+	border-width: 1px;
 	width: 1200px;
 	height:620px;
 	float: left;
@@ -68,11 +85,8 @@ li a hover {
 	margin-right: auto;
 	overflow: scroll;
 }
-.active {
-    background-color: #4CAF50;
-}
 #content0 {
-	width: 400px;
+	width: 35%;
 	height: 350px;
 	font-style: bold;
 	font-size: 15px;
@@ -81,7 +95,7 @@ li a hover {
 	text-align: justify;
 }
 #content1 {
-	width: 500px;
+	width: 55%;
 	height: 400px;
 	font-style: bold;
 	font-size: 15px;
@@ -90,7 +104,7 @@ li a hover {
 	text-align: justify;
 }
 #content2  {
-    width: 242px;
+    width: 10%;
     height: 290px;
     padding: 10px;
     font-size:25px;
@@ -102,30 +116,26 @@ li a hover {
 	padding: 10px;
 	float: left;
 	text-indent: 10px;
-	background-color: #F5F351;
 	}
 #content4 {
 	width: 573px;
-	height: 380px;
+	height: 440px;
 	padding: 10px;
 	float: left;
 	text-indent: 10px;
-	background-color: #F5F351;
 }
 #content5 {
 	width: 1160px;
-	height: 250px;
+	height: 440px;
 	text-indent: 10px;
 	padding: 10px;
 	float: left;
-	background-color: #F7CF59;
 }
 #content6 {
 	width: 1180px;
 	height: 100px;
 	text-indent: 10px;
 	float: left;
-	background-color: yellow;
 }
 #footer {
 	clear: both;
